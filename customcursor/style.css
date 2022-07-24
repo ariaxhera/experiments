@@ -113,15 +113,15 @@ nav ul li a:hover {
     width: 0px;
     height: 0px;
     border-radius: 50%;
-    border: 2px solid white;
+    border: 3px solid white;
     left: 0;
     transform: translate(-50%, -50%);
     pointer-events: none;
     transition: width 400ms, height 400ms;
-    transition: all 280ms ease-out;
+    transition: all 180ms ease-out;
 }
 
 .cursor.large {
     height: 44px;
-    width: 44px; 
+    width: 44px;
 }
