@@ -1,0 +1,182 @@
+:root {
+    --bg-color:
+    rgb(44, 38, 43);
+    
+   
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background:rgb(44, 38, 43);
+   
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+#grit {
+    font-size: 17px;
+    font-family: 'MS PGothic', Osaka, Arial, sans-serif;
+    font-weight: bolder;
+    color: rgb(230, 204, 204);
+    animation: fade-in 1000ms forwards cubic-bezier(0.39, 0.575, 0.565, 1);
+    opacity: 0;
+    transform: translateY(50px);
+}
+
+/*lines*/
+p {
+    color: rgb(230, 204, 204);
+}
+
+#group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;  
+  
+}
+
+#desc1 {
+    font-size: 16px;
+    font-family: monospace;
+    position: relative;
+    width: max-content;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+#desc1::before,
+#desc1::after {
+    content: '';
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+}
+
+#desc1::before {
+    background: var(--bg-color);
+    animation: 
+        typerwriter 1s steps(39) forwards;
+    animation-delay: 1s;
+}
+
+/*/////////////////////////////////////////////////////*/
+
+#desc2 {
+    font-size: 16px;
+    font-family: monospace;
+    position: relative;
+    text-align: center;
+    width: max-content;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+#desc2::before,
+#desc2::after {
+    content: '';
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+}
+
+#desc2::before {
+    background: var(--bg-color);
+    animation: 
+        typerwriter 1s steps(39) forwards;
+    animation-delay: 2s;
+}
+
+/*/////////////////////////////////////////////////////*/
+
+#desc3 {
+    font-size: 16px;
+    font-family: monospace;
+    position: relative;
+    text-align: center;
+    width: max-content;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+#desc3::before,
+#desc3::after {
+    content: '';
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+}
+
+#desc3::before {
+    background: var(--bg-color);
+    animation: 
+        typerwriter 1s steps(39) forwards;
+    animation-delay: 3s;
+}
+
+/*/////////////////////////////////////////////////////*/
+
+#desc4 {
+    font-size: 16px;
+    font-family: monospace;
+    position: relative;
+    text-align: center;
+    width: max-content;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+#desc4::before,
+#desc4::after {
+    content: '';
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+}
+
+#desc4::before {
+    background: var(--bg-color);
+    animation: 
+        typerwriter 1s steps(39) forwards;
+    animation-delay: 4s;
+}
+
+@keyframes fade-in {
+    20% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+    
+}
+
+@keyframes typerwriter {
+    to { 
+        left: 100% 
+    }
+}
