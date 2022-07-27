@@ -1,15 +1,38 @@
 :root {
     --bg-color:
     rgb(44, 38, 43);
+    z-index: 1;
+}
+
+#vanta {
+    z-index: -2;
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
     
-   
 }
 
 body {
     margin: 0;
     padding: 0;
     background:rgb(44, 38, 43);
-   
+}
+
+#boxy {
+    position: absolute;
+    height: 400px;
+    width: 600px;
+    background: rgb(44, 38, 43);
+    border-radius: 6px;
+    z-index: 0;
+    margin: auto;
+    left: 0%;
+    right: 0%;
+    top: 16em; 
+    text-align: center;
+    z-index: -1;
 }
 
 .title {
@@ -18,6 +41,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+   
 }
 
 #grit {
