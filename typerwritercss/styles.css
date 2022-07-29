@@ -51,7 +51,7 @@ body {
     color: rgb(230, 204, 204);
     animation: fade-in 1000ms forwards cubic-bezier(0.39, 0.575, 0.565, 1);
     opacity: 0;
-    transform: translateY(50px);
+    transform: translateY(5px);
 }
 
 /*lines*/
@@ -189,7 +189,7 @@ p {
 }
 
 @keyframes fade-in {
-    20% {
+    0% {
         opacity: 0;
     }
     100% {
