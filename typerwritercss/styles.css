@@ -43,6 +43,7 @@ body {
     background-color:rgb(44, 38, 43); 
     border-radius: 6px;
     border-color: rgb(44, 38, 43);
+    display: flex;
 }
 
 .title {
