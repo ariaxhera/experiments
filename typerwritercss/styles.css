@@ -18,21 +18,26 @@ body {
     margin: 0;
     padding: 0;
     background:rgb(44, 38, 43);
+    z-index: 0;
 }
 
 #boxy {
-    position: absolute;
-    height: 400px;
+    height: 200px;
     width: 600px;
     background: rgb(44, 38, 43);
     border-radius: 6px;
-    z-index: 0;
-    margin: auto;
+    margin: 0;
     left: 0%;
     right: 0%;
-    top: 16em; 
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     z-index: -1;
+}
+
+.wrapper {
+    background-color:rgb(44, 38, 43); 
+
 }
 
 .title {
@@ -41,10 +46,11 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-   
+    z-index: 0;  
 }
 
 #grit {
+    text-align: center;
     font-size: 17px;
     font-family: 'MS PGothic', Osaka, Arial, sans-serif;
     font-weight: bolder;
