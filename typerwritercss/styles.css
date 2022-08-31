@@ -104,7 +104,7 @@ p {
 #desc1::before {
     background: var(--bg-color);
     animation: 
-        typerwriter 1s steps(39) forwards;
+        typerwriter 1.5s steps(34) forwards;
     animation-delay: 1s;
 }
 
@@ -135,8 +135,8 @@ p {
 #desc2::before {
     background: var(--bg-color);
     animation: 
-        typerwriter 1s steps(39) forwards;
-    animation-delay: 2s;
+        typerwriter 1.5s steps(48) forwards;
+    animation-delay: 2.5s;
 }
 
 /*/////////////////////////////////////////////////////*/
@@ -166,8 +166,8 @@ p {
 #desc3::before {
     background: var(--bg-color);
     animation: 
-        typerwriter 1s steps(39) forwards;
-    animation-delay: 3s;
+        typerwriter 1.5s steps(55) forwards;
+    animation-delay: 4s;
 }
 
 /*/////////////////////////////////////////////////////*/
@@ -181,7 +181,7 @@ p {
     margin-bottom: 0px;
     margin-top: 0px;
     padding-top: 0px;
-    padding-bottom: 0px;
+    padding-bottom: 9px;
 }
 
 #desc4::before,
@@ -197,8 +197,36 @@ p {
 #desc4::before {
     background: var(--bg-color);
     animation: 
-        typerwriter 1s steps(39) forwards;
-    animation-delay: 4s;
+        typerwriter 1.5s steps(19) forwards;
+    animation-delay: 5.5s;
+}
+
+#desc5 {
+    font-size: 16px;
+    font-family: monospace;
+    position: relative;
+    text-align: center;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+#desc5::before,
+#desc5::after {
+    content: '';
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+}
+
+#desc5::before {
+    background: var(--bg-color);
+    animation: 
+        typerwriter 1s steps(2) forwards;
+    animation-delay: 7s;
 }
 
 @keyframes fade-in {
