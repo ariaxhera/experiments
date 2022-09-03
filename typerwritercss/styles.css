@@ -21,20 +21,6 @@ body {
     z-index: 0;
 }
 
-#boxy {
-    height: 200px;
-    width: 600px;
-    background: rgb(44, 38, 43);
-    border-radius: 6px;
-    margin: 0;
-    left: 0%;
-    right: 0%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    z-index: -1;
-}
-
 .background {
     margin: 40px;
 }
@@ -44,6 +30,8 @@ body {
     border-radius: 6px;
     border-color: rgb(44, 38, 43);
     display: flex;
+    margin: 0;
+    width: auto;
 }
 
 .title {
@@ -57,8 +45,8 @@ body {
 
 #grit {
     text-align: center;
-    padding-bottom: 9px;
-    margin: 9px;
+    padding-bottom: 4%;
+    margin: 1%;
     font-size: 17px;
     font-family: 'MS PGothic', Osaka, Arial, sans-serif;
     font-weight: bolder;
@@ -78,7 +66,7 @@ p {
     justify-content: center;
     align-items: center;
     flex-direction: column;  
-    padding-bottom: 2px;
+    padding-bottom: 1%;
 }
 
 #desc1 {
@@ -210,7 +198,7 @@ p {
     margin-bottom: 0px;
     margin-top: 0px;
     padding-top: 0px;
-    padding-bottom: 0px;
+    padding-bottom: -4px;
 }
 
 #desc5::before,
@@ -244,5 +232,50 @@ p {
 @keyframes typerwriter {
     to { 
         left: 100% 
+    }
+}
+
+@media screen and (max-width: 660px) {
+    #grit {
+        font: 14px;
+    }
+    #desc1 {
+        font-size: 12px;
+    }
+    #desc2 {
+        font-size: 12px;
+    }
+    #desc3 {
+        font-size: 12px;
+    }
+    #desc4 {
+        font-size: 12px;
+    }
+    #desc5 {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 440px) {
+    .background {
+        margin: 20px;
+    }
+    #grit {
+        font: 14px;
+    }
+    #desc1 {
+        font-size: 10px;
+    }
+    #desc2 {
+        font-size: 10px;
+    }
+    #desc3 {
+        font-size: 10px;
+    }
+    #desc4 {
+        font-size: 10px;
+    }
+    #desc5 {
+        font-size: 10px;
     }
 }
